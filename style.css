@@ -1,0 +1,1262 @@
+:root
+{
+    --main-bg-color: #0C0B08;
+    --main-yellow: #DCCA87;
+    --main-gray: #AAAAAA;
+}
+
+.header-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header 
+{
+    background-color: var(--main-bg-color);
+}
+.nav-ul
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.header-ul-button
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo
+{
+    font-family: "Cormorant Upright";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-site
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.header-button
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.page1-section-hero
+{
+    background-color: var(--main-bg-color);
+    height: 870px;
+    padding-top: 35px;
+    
+
+}
+.page1-section-hero-general
+{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+.chase-new-flavor
+{
+    color: white;
+    font-family: "Cormorant Upright";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 0;
+}
+.chase-new-flavor::after
+{
+    content: url(./img/lozhka-right.svg);
+    width: 9px;
+    height: 40px;
+    display: flex;
+}
+.header-line
+{
+    height: 57px;
+    width: 1px;
+    background-image: radial-gradient(#FFFFFF, #FFFFFF00);
+}
+.aside-text
+{
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    display: flex;
+    gap: 40px;
+}
+.fine-dining
+{
+    font-family: Cormorant Upright;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    max-width: 453px;
+    margin: 32px 0;
+}
+.aside-p
+{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.section-hero-p 
+{
+    color: #AAAAAA;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 453px;
+    margin-top: 0;
+}
+.explore-menu-father
+{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.explore-menu 
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: var(--main-yellow);
+    border: none;
+    width: Hug (157px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.page-list
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5EFDB;
+}
+.aside-page-list
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* color: #F5EFDB; */
+    writing-mode: vertical-lr;
+}
+.aside-father
+{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+.hero1-scroll
+{
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    text-transform: uppercase;
+}
+.scroll-border
+{
+    width: 1px;
+    padding: 25px 0;
+    background-image: linear-gradient(to bottom, #DCCA87, #DCCA87);
+}
+.father-scroll
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.father-scroll-2
+{
+    align-items: center;
+}
+.father-scroll2 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-us-p::after
+{
+    content: url(./img/lozhka-left.svg);
+    display: flex;
+    width: 9px;
+    height: 40px;
+    position: relative;
+    left: 92%;
+}
+.our-history-p::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    width: 9px;
+    height: 40px;
+    justify-content: start;
+    position: relative;
+}
+.section2-h
+{
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    text-align: right;
+}
+.section2-h-2
+{
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.section2-child1
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 523px;
+    color: #AAAAAA;
+}
+.section2-child2
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 523px;
+    color: #AAAAAA;
+}
+.know-more-button
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: Hug (141px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--main-yellow);
+    border: none; 
+}
+.page1-section2
+{
+    background-image: url(./img/main-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px ;
+    height: 959px;
+    z-index: -4;
+}
+.page1-section2-general
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+}
+.book-a-table
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.reservation
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    
+}
+.book-a-table-form
+{
+    background-color: #0C0C0C;
+    width: Hug (1,364px)px;
+    height: Hug (466px)px;
+    top: 2260px;
+    left: 278px;
+    padding: 48px 32px 48px 32px;
+    gap: 64px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.page1-section3
+{
+    background-color: var(--main-bg-color);
+}
+.reservation::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    position: relative;
+    left: 49%;
+}
+.beer-wine-section 
+{
+    background-color: #0C0B08;
+    height: 1274px;
+    padding-top: 152px;
+}
+.wine-beer-li {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+}
+
+.wine-beer-cost 
+{
+    color: white;
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.wine-beer-cost::before
+{
+    background-color: white;
+    width: 100px;
+    height: 1px;
+    content: "";
+    display: flex;
+    position: relative;
+    left: -100%;
+    top: 33%;
+    width: 120px;
+}
+.wine-beer-cost2
+{
+    color: white;
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: end;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.wine-beer-cost2::before {
+    background-color: white;
+    width: 100px;
+    height: 1px;
+    content: "";
+    display: flex;
+    position: relative;
+    left: -80%;
+    top: 25%;
+    width: 120px;
+}
+.wine-beer-li div {
+    min-width: 300px;
+}
+
+.cocktails-name
+{
+    color: var(--main-yellow);
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 0;
+}
+.cocktails-gram
+{
+    color: var(--main-gray);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0;
+    white-space: nowrap;
+}
+.wine-and-beer
+{
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.beer-wine-main 
+{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.wine-and-beer-li
+{
+    text-align: center;
+    max-width: 430px;
+}
+.menu-fits
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 0;
+}
+.today-special
+{
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    margin-top: 0;
+}
+.today-special::before
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    position: relative;
+    left: 48.5%;
+    width: 9px;
+
+}
+.view-more
+{
+    width: Hug (136px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--main-yellow);
+    border: none;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 60px auto;
+    display: block;
+}
+.world-chef
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.what-we-believe
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.world-chef-child
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 570px;
+    margin-bottom: 0;
+    color: var(--main-gray);
+}
+.world-chef-child::before
+{
+    content: url("./img/“.svg");
+    margin-right: 10px;
+}
+.world-chef-child2
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 570px;
+    margin-top: 0;
+    color: var(--main-gray);
+}
+.kevin
+{
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.who-kevin
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.footer
+{
+    background-color: var(--main-bg-color);
+    background-image: url(./img/main-background.png);
+    height: 1350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.testimony
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.happy-customers
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.happy-customers-lorem
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 410px;
+    color: var(--main-gray);
+}
+.customers-name
+{
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.who-is-customers
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5EFDB;
+}
+.section-vid
+{
+    background-image: url(./img/Video.png);
+    height: 760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1900px;
+}
+.award-and
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.our-laurels
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.laurels-name
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.laurels-info
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.blogs
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.gericht-update
+{
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.blogs-info1
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FAFAFA;
+}
+.blogs-info2
+{
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    max-width: 412px;
+}
+.blogs-info2:hover
+{
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.blogs-info3
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+    max-width: 412px;
+}
+.read-more-link
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.insta
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.photo-gallery
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.gallery-child1
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 491px;
+    color: var(--main-gray);
+}
+.view-more1
+{
+    width: Hug (136px)px;
+    height: Hug (44px)px;
+    padding: 8px 32px 8px 32px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--main-yellow);
+    border: none;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.img-container {
+    display: flex;
+    gap: 32px;
+  }
+  
+.gallery-item {
+    position: relative;
+    display: inline-block;
+  }  
+.gallery-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 75%, rgba(0, 0, 0, 0.64) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.gallery-item::before {
+    content: url('./img/Vector.svg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, 50px);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+}
+.gallery-item:hover::before 
+{
+    transform: translate(-35%, -50%)
+}
+.gallery-item:hover::after,
+.gallery-item:hover::before {
+  opacity: 1;
+}
+.new-sletter
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 0;
+}
+.subscribe-info
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+    margin: 0;
+}
+.never-miss
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0;
+    color: white;
+}
+.input-email
+{
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 635px;
+    height: 60px;
+    padding-left: 18px;
+    gap: 0px;
+    border: 1px #F5EFDB solid;
+    opacity: 0px;
+    color: var(--main-gray);
+    background-color: transparent;
+}
+.subscribe 
+{
+    width: 140px;
+    padding: 15px 0;
+    gap: 10px;
+    border: none;
+    opacity: 0px;
+    background-color: var(--main-yellow);
+    color: #0C0C0C;
+}
+.footer-info1
+{
+    font-family: Cormorant Upright;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5EFDB;
+
+}
+.logo-footer
+{
+    font-family: "Cormorant Upright";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: var(--main-yellow);
+}
+.footer-info2
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.menu-selection
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    z-index: 3;
+    
+}
+.menu-selection:hover
+{
+    text-decoration: underline;    
+}
+.whiskey-bg
+{
+    background-image: url(./img/whiskey-bg.jpg);
+    background-position: center;
+    height: 900px;
+    padding: 40px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.on-rocks
+{
+    font-family: 'Cormorant Upright';
+    font-size: 181px;
+    font-weight: 700;
+    line-height: 235.3px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.beer-info1
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.beer-info2
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.beer-info3
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+    max-width: 530px;
+}
+.cocktails-info
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.your-poison
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.happy-hours
+{
+    font-family: Cormorant Upright;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 166.4px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);    
+}
+.when-happy-hours
+{
+    font-family: Cormorant Upright;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;    
+}
+.contact
+{
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.find-us
+{
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.where-we
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.when-open
+{
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-yellow);
+}
+.open-time
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.visit-us
+{
+    width: 130px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--main-yellow);  
+    border: none;  
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.container
+{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* background-color: purple; */
+}
