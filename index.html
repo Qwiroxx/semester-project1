@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GERICHT</title>
+    <link rel="icon" href="./img/knife-fork.png">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -47,7 +48,7 @@
         <section class="page1-section-hero">
             <div class="container">
                 <div class="page1-section-hero-general">
-                    <div class="aside-text">
+                    <div class="aside-text container-alt">
                         <p class="aside-p">#Bar</p>
                         <p class="aside-p">#Gericht</p>
                     </div>
@@ -72,7 +73,7 @@
         <section class="page1-section2">
             <div class="container">
                 <div class="page1-section2-general">
-                    <ul>
+                    <ul class="about-us1">
                         <li><p class="about-us-p section2-h">About Us</p></li>
                         <li><p class="section2-child1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p></li>
                         <li><button class="know-more-button">Know More</button></li>
@@ -86,55 +87,45 @@
                 </div>
             </div>
         </section>
-        <section class="page1-section3">
+        <section class="section3">
             <div class="container">
+                <div class="bite-delight1">
+                    <img src="./img/bite-delight.svg" alt="bite-delight">
+                </div>
                 <div class="book-a-table-form">
-                    <form>
+                    <div>
                         <p class="reservation">Reservations</p>
                         <p class="book-a-table">Book A Table</p>
-                        <label for="person-amounth"></label>
-                        <select name="person-amounth" id="person-amounth">
-                            <option value="1">1 person</option>
-                            <option value="2">2 person</option>
-                            <option value="3">3 person</option>
-                            <option value="4">4 person</option>
-                            <option value="5">5 person</option>
-                            <option value="6">6 person</option>
-                            <option value="7">7 person</option>
-                            <option value="8">8 person</option>
-                            <option value="9">9 person</option>
-                            <option value="10">10 person</option>
-                        </select>
-                        <label for="when"></label>
-                        <select name="when" id="when">
-                            <option value="12/05/2021">12/05/2021</option>
-                            <option value="13/05/2021">13/05/2021</option>
-                            <option value="14/05/2021">14/05/2021</option>
-                            <option value="15/05/2021">15/05/2021</option>
-                            <option value="16/05/2021">16/05/2021</option>
-                            <option value="17/05/2021">17/05/2021</option>
-                            <option value="18/05/2021">18/05/2021</option>
-                            <option value="19/05/2021">19/05/2021</option>
-                        </select>
-                        <label for="when-hour"></label>
-                        <select name="when-hour" id="when-hour">
-                            <option value="11:00 AM">11:00 AM</option>
-                            <option value="11:00 AM">12:00 AM</option>
-                            <option value="11:00 AM">13:00 AM</option>
-                            <option value="11:00 AM">14:00 AM</option>
-                            <option value="11:00 AM">15:00 AM</option>
-                            <option value="11:00 AM">16:00 AM</option>
-                            <option value="11:00 AM">17:00 AM</option>
-                            <option value="11:00 AM">18:00 AM</option>
-                        </select>
-                        <button>Book Now</button>
+                    </div>
+                    <form>
+                        <div class="form">
+                            <label for="person-amounth"></label>
+                            <select name="person-amounth" id="person-amounth" class="book-table">
+                                <option value="1">1 person</option>
+                                <option value="2">2 person</option>
+                                <option value="3">3 person</option>
+                                <option value="4">4 person</option>
+                                <option value="5">5 person</option>
+                                <option value="6">6 person</option>
+                                <option value="7">7 person</option>
+                                <option value="8">8 person</option>
+                                <option value="9">9 person</option>
+                                <option value="10">10 person</option>
+                            </select>
+                            <input type="date" class="book-table">
+                            <input type="time" class="book-table">
+                        </div>
+                        <button class="book-now">Book Now</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="whiskey-bg">
+        <section class="whiskey-section">
             <div class="container">
-                <ul>
+                <div class="bite-delight2">
+                    <img src="./img/bite-delight.svg" alt="bite-delight">
+                </div>
+                <ul class="whiskey-ul">
                     <li><a href="./menu.html" class="menu-selection">Bar Menu</a></li>
                     <li><a href="#" class="menu-selection">Food Menu</a></li>
                     <li><a href="#" class="menu-selection">Desserts Menu</a></li>
@@ -231,117 +222,142 @@
                 <button class="view-more">View More</button>
             </div>
         </section>
-        <section>
+        <section class="section-kevin">
             <div class="container">
-                <div>
-                    <img src="./img/Kevin.png" alt="Kevin" width="634px">
+                <div class="section-kevin-general">
+                    <div>
+                        <img src="./img/Kevin.png" alt="Kevin" width="634px">
+                    </div>
+                    <ul>
+                        <li><p class="world-chef">Chef’s Word</p></li>
+                        <li><p class="what-we-believe">What we believe in</p></li>
+                        <li><p class="world-chef-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit . </p>
+                            <p class="world-chef-child2">auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+                        </li>
+                        <li><p class="kevin">Kevin Luo</p></li>
+                        <li><p class="who-kevin">Chef & Founder</p></li>
+                        <li><img src="./img/Kevin Luo.svg" alt="Kevin"></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li><p class='world-chef'>Chef’s Word</p></li>
-                    <li><p class="what-we-believe">What we believe in</p></li>
-                    <li><p class="world-chef-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit . </p>
-                        <p class="world-chef-child2">auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
-                    </li>
-                    <li><p class="kevin">Kevin Luo</p></li>
-                    <li><p class="who-kevin">Chef & Founder</p></li>
-                    <li><img src="./img/Kevin Luo.svg" alt="Kevin"></li>
-                </ul>
             </div>
         </section>
-        <section>
+        <section class="section-customers">
             <div class="container">
+                <div>
+                    <img src="./img/bite-delight.svg" alt="bite-delight" class="bite-delight3">
+                </div>
                 <p class="testimony">Testimony</p>
                 <p class="happy-customers">Happy customers</p>
-                <ul>
-                    <li>
+                <ul class="customer-ul">
+                    <li class="customers-item">
                         <div>
                             <img src="./img/Wade.png" alt="Wade">
                         </div>
-                        <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                        <p class="customers-name">Wade Warren</p>
-                        <p class="who-is-customers">Sommelier</p>
-                    </li>
-                    <li>
                         <div>
-                            <img src="./img/Robert.png" alt="Robert">
+                            <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                            <p class="customers-name">Wade Warren</p>
+                            <p class="who-is-customers">Sommelier</p>
                         </div>
-                        <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                        <p class="customers-name">Robert Fox</p>
-                        <p class="who-is-customers">Chef</p>
                     </li>
-                    <li>
+                    <li class="customers-item">
                         <div>
                             <img src="./img/Jane.png" alt="Jane" width="221px">
                         </div>
-                        <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                        <p class="customers-name">Jane Cooper</p>
-                        <p class="who-is-customers">Chef</p>
+                        <div>
+                            <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                            <p class="customers-name">Jane Cooper</p>
+                            <p class="who-is-customers">Chef</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="customers-item">
+                        <div>
+                            <img src="./img/Robert.png" alt="Robert">
+                        </div>
+                        <div>
+                            <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                            <p class="customers-name">Robert Fox</p>
+                            <p class="who-is-customers">Chef</p>
+                        </div>
+                    </li>
+                    <li class="customers-item">
                         <div>
                             <img src="./img/Brooklyn.png" alt="Brooklyn">
                         </div>
-                        <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                        <p class="customers-name">Brooklyn Simmons</p>
-                        <p class="who-is-customers">Caterer</p>
+                        <div>
+                            <p class="happy-customers-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                            <p class="customers-name">Brooklyn Simmons</p>
+                            <p class="who-is-customers">Caterer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="section-vid">
             <div class="container">
-
+                <div>
+                    <img src="./img/bite-delight.svg" alt="bite-delight" class="bite-delight6">
+                </div>
             </div>
         </section>
-        <section>
+        <section class="section-reward">
             <div class="container">
-                <div>
-                    <p class="award-and">Awards & recognition</p>
-                    <p class="our-laurels">Our Laurels</p>
-                    <ul>
-                        <li>
-                            <div>
-                                <img src="./img/2.svg" alt="2">
-                            </div>
-                            <p class="laurels-name">Bib Gourmond</p>
-                            <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="./img/1.svg" alt="1">
-                            </div>
-                            <p class="laurels-name">AA Hospitality </p>
-                            <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="./img/5.svg" alt="5">
-                            </div>
-                            <p class="laurels-name">Rising Star</p>
-                            <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
-                        </li>
-                        <li>
-                            <div>
-                                <img src="./img/3.svg" alt="3">
-                            </div>
-                            <p class="laurels-name">Outstanding Chef</p>
-                            <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div>
+                <div class="reward-general">
+                    <div>
+                        <div>
+                            <p class="award-and">Awards & recognition</p>
+                            <p class="our-laurels">Our Laurels</p>
+                        </div>
+                        <ul class="rewards-ul">
+                            <li class="rewards-item">
+                                <div>
+                                    <img src="./img/2.svg" alt="2">
+                                </div>
+                                <div>
+                                    <p class="laurels-name">Bib Gourmond</p>
+                                    <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                            </li>
+                            <li class="rewards-item">
+                                <div>
+                                    <img src="./img/1.svg" alt="1">
+                                </div>
+                                <div>
+                                    <p class="laurels-name">AA Hospitality </p>
+                                    <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                            </li>
+                            <li class="rewards-item">
+                                <div>
+                                    <img src="./img/5.svg" alt="5">
+                                </div>
+                                <div>
+                                    <p class="laurels-name">Rising Star</p>
+                                    <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                            </li>
+                            <li class="rewards-item">
+                                <div>
+                                    <img src="./img/3.svg" alt="3">
+                                </div>
+                                <div>
+                                    <p class="laurels-name">Outstanding Chef</p>
+                                    <p class="laurels-info">Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                     <img src="./img/roast-chicken.png" alt="roast chicken">
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-gericht-update">
             <div class="container">
                 <p class="blogs">Blogs</p>
                 <p class="gericht-update">Gerícht updates</p>
-                <ul>
+                <ul class="update-gallery">
                     <li>
                         <img src="./img/beef.png" alt="beef">
-                        <div>
+                        <div class="gericht-name">
                             <p class="blogs-info1">16 Apr 2021</p>
                             <p class="blogs-info1">- Annalisa L</p>
                         </div>
@@ -351,7 +367,7 @@
                     </li>
                     <li>
                         <img src="./img/cocktail.png" alt="cocktail">
-                        <div>
+                        <div class="gericht-name">
                             <p class="blogs-info1">23 May 2021</p>
                             <p class="blogs-info1">-John Micheal</p>
                         </div>
@@ -361,7 +377,7 @@
                     </li>
                     <li>
                         <img src="./img/rice-ball.png" alt="rice balls">
-                        <div>
+                        <div class="gericht-name">
                             <p class="blogs-info1">06 Aug 2021</p>
                             <p class="blogs-info1">-Fred W</p>
                         </div>
@@ -371,10 +387,11 @@
                     </li>
                 </ul>
                 <button class="view-more">View More</button>
+                <img src="./img/bite-delight.svg" alt="bite-delight" class="bite-delight4">
             </div>
         </section>
-        <section>
-            <div class="container">
+        <section class="page1-section-gallery">
+            <div class="container page1-gallery">
                 <div>
                     <p class="insta">Instagram</p>
                     <p class="photo-gallery">Photo Gallery</p>
@@ -392,37 +409,43 @@
                         <img src="./img/fried-egg.jpg" alt="fried egg" class="gallery-img" width="301px">
                     </div>
                 </div>
+                <div>
+                    <img src="./img/bite-delight.svg" alt="bite-delight" class="bite-delight5">
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <div>
-                <p class="new-sletter">Newsletter</p>
-                <p class="subscribe-info">Subscribe to Our Newsletter</p>
-                <p class="never-miss">And never miss latest Updates!</p>
-                <form>
+            <div class="footer-form-general">
+                <div>
+                    <p class="new-sletter">Newsletter</p>
+                    <p class="subscribe-info">Subscribe to Our Newsletter</p>
+                    <p class="never-miss">And never miss latest Updates!</p>
+                </div>
+                <form class="footer-form">
                     <input type="email" placeholder="Email Adress" class="input-email">
                     <button class="subscribe">Subscribe</button>
                 </form>
             </div>
-            <ul>
-                <li>
-                    <p class="footer-info1">Contact Us</p>
-                    <p class="footer-info2">9 W 53rd St, New York, NY 10019, USA</p>
-                    <p class="footer-info2">+1 212-344-1230 +1 212-555-1230</p>
+            <ul class="footer-info-general">
+                <li class="footer-li1">
+                    <p class="footer-info1 footer-contact-us">Contact Us</p>
+                    <p class="footer-street">9 W 53rd St, New York, NY 10019, USA</p>
+                    <p class="footer-info2 footer-number">+1 212-344-1230 +1 212-555-1230</p>
                 </li>
-                <li>
+                <li class="footer-li2">
                     <a href="#" class="logo-footer">Gerícht</a>
-                    <p></p>
+                    <p class="footer-best-wave">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                    <img src="./img/Social media.png" alt="social media" width="104px">
                 </li>
-                <li>
-                    <p class="footer-info1">Working Hours</p>
-                    <p class="footer-info2">Monday-Friday: 08:00 am -12:00 am</p>
-                    <p class="footer-info2">Saturday-Sunday: 07:00am -11:00 pm</p>
+                <li class="footer-li3">
+                    <p class="footer-info1 footer-working-hours">Working Hours</p>
+                    <p class="footer-info2 footer-hours">Monday-Friday: 08:00 am -12:00 am</p>
+                    <p class="footer-info2 footer-hours">Saturday-Sunday: 07:00am -11:00 pm</p>
                 </li>
             </ul>
-            <p class="footer-info2">2021 Gerícht. All Rights reserved.</p>
+            <p class="footer-info2 footer-when-gericht">2021 Gerícht. All Rights reserved.</p>
         </div>
     </footer>
 </body>

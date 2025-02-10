@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GERICHT</title>
+    <link rel="icon" href="./img/knife-fork.png">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <div class="header-main-bg">
+    <header class="header header2">
         <div class="container header-main">
             <a href="#" class="logo">GERíCHT</a>
             <nav>
@@ -44,7 +46,7 @@
             </div>
     </header>
     <main>
-        <section>
+        <section class="page2-hero">
             <div class="container">
                 <div class="aside-text">
                     <p class="aside-p">#Bar</p>
@@ -60,60 +62,49 @@
                         <p class="hero1-scroll">Scroll</p>
                     </div>
                 </div>
+                <div class="bite-delight7">
+                    <img src="./img/bite-delight.svg" alt="bite-delight">
+                </div>
             </div>
         </section>
-        <section class="page1-section3">
+    </main>
+    </div>
+    <main>
+        <section class="section3">
             <div class="container">
                 <div class="book-a-table-form">
-                    <form>
+                    <div>
                         <p class="reservation">Reservations</p>
                         <p class="book-a-table">Book A Table</p>
-                        <label for="person-amounth"></label>
-                        <select name="person-amounth" id="person-amounth">
-                            <option value="1">1 person</option>
-                            <option value="2">2 person</option>
-                            <option value="3">3 person</option>
-                            <option value="4">4 person</option>
-                            <option value="5">5 person</option>
-                            <option value="6">6 person</option>
-                            <option value="7">7 person</option>
-                            <option value="8">8 person</option>
-                            <option value="9">9 person</option>
-                            <option value="10">10 person</option>
-                        </select>
-                        <label for="when"></label>
-                        <select name="when" id="when">
-                            <option value="12/05/2021">12/05/2021</option>
-                            <option value="13/05/2021">13/05/2021</option>
-                            <option value="14/05/2021">14/05/2021</option>
-                            <option value="15/05/2021">15/05/2021</option>
-                            <option value="16/05/2021">16/05/2021</option>
-                            <option value="17/05/2021">17/05/2021</option>
-                            <option value="18/05/2021">18/05/2021</option>
-                            <option value="19/05/2021">19/05/2021</option>
-                        </select>
-                        <label for="when-hour"></label>
-                        <select name="when-hour" id="when-hour">
-                            <option value="11:00 AM">11:00 AM</option>
-                            <option value="11:00 AM">12:00 AM</option>
-                            <option value="11:00 AM">13:00 AM</option>
-                            <option value="11:00 AM">14:00 AM</option>
-                            <option value="11:00 AM">15:00 AM</option>
-                            <option value="11:00 AM">16:00 AM</option>
-                            <option value="11:00 AM">17:00 AM</option>
-                            <option value="11:00 AM">18:00 AM</option>
-                        </select>
-                        <button>Book Now</button>
+                    </div>
+                    <form>
+                        <div class="form">
+                            <label for="person-amounth"></label>
+                            <select name="person-amounth" id="person-amounth" class="book-table">
+                                <option value="1">1 person</option>
+                                <option value="2">2 person</option>
+                                <option value="3">3 person</option>
+                                <option value="4">4 person</option>
+                                <option value="5">5 person</option>
+                                <option value="6">6 person</option>
+                                <option value="7">7 person</option>
+                                <option value="8">8 person</option>
+                                <option value="9">9 person</option>
+                                <option value="10">10 person</option>
+                            </select>
+                            <input type="date" class="book-table">
+                            <input type="time" class="book-table">
+                        </div>
+                        <button class="book-now">Book Now</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-beer">
             <div class="container">
-                <div>
-                    <div>
-                        <img src="./img/beer.png" alt="beer">
-                    </div>
+                <div class="beer-general">
+                    <div class="bite-delight8"><img src="./img/bite-delight.svg" alt="bite-delight"></div>
+                    <img src="./img/beer.png" alt="beer">
                     <ul>
                         <li><img src="./img/beer2.png" alt="beer 2nd image"></li>
                         <li><p class="beer-info1">About Us</p></li>
@@ -124,16 +115,24 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-choose-poison">
             <div class="container">
                 <p class="cocktails-info">Wide Range to choose from</p>
                 <p class="your-poison">What’s Your Poison?</p>
-                <img src="./img/beer-feel.png" alt="beer feeling">
-                <img src="./img/wine.png" alt="Wine">
-                <img src="./img/cocktails.png" alt="cocktail">
+                <div class="poison-choose">
+                    <div class="cocktails-item">
+                        <img src="./img/beer-feel.png" alt="beer feeling">
+                    </div>
+                    <div class="cocktails-item">
+                        <img src="./img/wine.png" alt="Wine">
+                    </div>
+                    <div class="cocktails-item">
+                        <img src="./img/cocktails.png" alt="cocktail">
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="section-happy">
             <div class="container">
                 <p class="happy-hours">Happy Hours</p>
                 <p class="when-happy-hours">Monday - Friday (4:00 Pm - 7:00 pm)</p>
@@ -141,6 +140,7 @@
         </section>
         <section class="beer-wine-section">
             <div class="container">
+                <div class="bite-delight9"><img src="./img/bite-delight.svg" alt="bite-delight"></div>
                 <p class="menu-fits">Menu that fits you palatte</p>
                 <p class="today-special">Today’s Special</p>
                 <div class="beer-wine-main ">
@@ -227,11 +227,14 @@
                     </ul>
                 </div>
                 <button class="view-more">View More</button>
+                <div class="bite-delight10">
+                    <img src="./img/bite-delight.svg" alt="bite-delight">
+                </div>
             </div>
         </section>
-        <section>
+        <section class="section-find-us">
             <div class="container">
-                <div>
+                <div class="find-us-general">
                     <ul>
                         <li><p class="contact">Contact</p></li>
                         <li><p class="find-us">Find Us</p></li>
@@ -247,32 +250,38 @@
         </section>
         <footer class="footer">
             <div class="container">
-                <div>
-                    <p class="new-sletter">Newsletter</p>
-                    <p class="subscribe-info">Subscribe to Our Newsletter</p>
-                    <p class="never-miss">And never miss latest Updates!</p>
-                    <form>
+                <div class="bite-delight11">
+                    <img src="./img/bite-delight.svg" alt="bite-delight">
+                </div>
+                <div class="footer-form-general">
+                    <div>
+                        <p class="new-sletter">Newsletter</p>
+                        <p class="subscribe-info">Subscribe to Our Newsletter</p>
+                        <p class="never-miss">And never miss latest Updates!</p>
+                    </div>
+                    <form class="footer-form">
                         <input type="email" placeholder="Email Adress" class="input-email">
                         <button class="subscribe">Subscribe</button>
                     </form>
                 </div>
-                <ul>
-                    <li>
-                        <p class="footer-info1">Contact Us</p>
-                        <p class="footer-info2">9 W 53rd St, New York, NY 10019, USA</p>
-                        <p class="footer-info2">+1 212-344-1230 +1 212-555-1230</p>
+                <ul class="footer-info-general">
+                    <li class="footer-li1">
+                        <p class="footer-info1 footer-contact-us">Contact Us</p>
+                        <p class="footer-street">9 W 53rd St, New York, NY 10019, USA</p>
+                        <p class="footer-info2 footer-number">+1 212-344-1230 +1 212-555-1230</p>
                     </li>
-                    <li>
+                    <li class="footer-li2">
                         <a href="#" class="logo-footer">Gerícht</a>
-                        <p></p>
+                        <p class="footer-best-wave">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <img src="./img/Social media.png" alt="social media" width="104px">
                     </li>
-                    <li>
-                        <p class="footer-info1">Working Hours</p>
-                        <p class="footer-info2">Monday-Friday: 08:00 am -12:00 am</p>
-                        <p class="footer-info2">Saturday-Sunday: 07:00am -11:00 pm</p>
+                    <li class="footer-li3">
+                        <p class="footer-info1 footer-working-hours">Working Hours</p>
+                        <p class="footer-info2 footer-hours">Monday-Friday: 08:00 am -12:00 am</p>
+                        <p class="footer-info2 footer-hours">Saturday-Sunday: 07:00am -11:00 pm</p>
                     </li>
                 </ul>
-                <p class="footer-info2">2021 Gerícht. All Rights reserved.</p>
+                <p class="footer-info2 footer-when-gericht">2021 Gerícht. All Rights reserved.</p>
             </div>
         </footer>
     </main>

@@ -15,6 +15,10 @@
 {
     background-color: var(--main-bg-color);
 }
+.header2
+{
+    background-color: transparent;
+}
 .nav-ul
 {
     display: flex;
@@ -110,6 +114,7 @@
     writing-mode: vertical-lr;
     display: flex;
     gap: 40px;
+    margin-top: 70px;
 }
 .fine-dining
 {
@@ -174,9 +179,13 @@
     padding: 8px 32px 8px 32px;
     gap: 0px;
     opacity: 0px;
-
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-
+.explore-menu:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.15);
+}
 .page-list
 {
     font-family: 'Cormorant Upright';
@@ -196,7 +205,7 @@
     line-height: 28px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    /* color: #F5EFDB; */
+    color: #F5EFDB;
     writing-mode: vertical-lr;
 }
 .aside-father
@@ -233,6 +242,7 @@
 .father-scroll-2
 {
     align-items: center;
+    margin-top: 130px;
 }
 .father-scroll2 
 {
@@ -247,7 +257,7 @@
     width: 9px;
     height: 40px;
     position: relative;
-    left: 92%;
+    left: 84%;
 }
 .our-history-p::after
 {
@@ -323,6 +333,12 @@
     opacity: 0px;
     background-color: var(--main-yellow);
     border: none; 
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.know-more-button:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.1);
 }
 .page1-section2
 {
@@ -351,6 +367,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
 }
 .reservation
 {
@@ -363,31 +380,109 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
-    
+    margin-bottom: 0;
 }
 .book-a-table-form
 {
     background-color: #0C0C0C;
-    width: Hug (1,364px)px;
-    height: Hug (466px)px;
-    top: 2260px;
-    left: 278px;
     padding: 48px 32px 48px 32px;
-    gap: 64px;
-    border: 1px 0px 0px 0px;
+    border: 1px #DCCA8733 solid;
     opacity: 0px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.page1-section3
+.section3
 {
     background-color: var(--main-bg-color);
+    height: 800px;
+    display: flex;
+    align-items: center;
+    /* padding-top: 100px; */
+}
+.bite-delight1
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform:translateY(-130%) translateX(930%);
+}
+.bite-delight2
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateY(-175%) translateX(20%);
+}
+.bite-delight3
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateY(-130%) translateX(930%);
+}
+.bite-delight4
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateY(-115%) translateX(1030%);
+}
+.bite-delight5
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateY(360%) translateX(-1180%);
+}
+.bite-delight6
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateY(100%);
+}
+.bite-delight7
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateX(1000%);
+}
+.bite-delight8
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateX(-80%) translateY(-315%);
+}
+.bite-delight9
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateX(1000%) translateY(-100%);
+}
+.bite-delight10
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateX(-70%) translateY(-80%);
+}
+.bite-delight11
+{
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    transform: translateX(1000%) translateY(-95%);
 }
 .reservation::after
 {
     content: url(./img/lozhka-right.svg);
     display: flex;
     position: relative;
-    left: 49%;
+    left: 45%;
 }
 .beer-wine-section 
 {
@@ -556,6 +651,7 @@
     text-decoration-skip-ink: none;
     margin: 60px auto;
     display: block;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-out;
 }
 .world-chef
 {
@@ -568,6 +664,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
 }
 .what-we-believe
 {
@@ -580,6 +677,14 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
+}
+.what-we-believe::before
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    margin-top: 0;
+    width: 9px;
 }
 .world-chef-child
 {
@@ -644,9 +749,10 @@
 {
     background-color: var(--main-bg-color);
     background-image: url(./img/main-background.png);
-    height: 1350px;
+    height: 1300px;
     background-repeat: no-repeat;
     background-position: bottom;
+    padding-top: 140px;
 }
 .testimony
 {
@@ -658,7 +764,8 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
+    margin: 0;
+    color: white;
 }
 .happy-customers
 {
@@ -671,6 +778,13 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
+}
+.happy-customers::before
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: center;
 }
 .happy-customers-lorem
 {
@@ -729,6 +843,13 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
+}
+.award-and::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: start;
 }
 .our-laurels
 {
@@ -741,6 +862,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
 }
 .laurels-name
 {
@@ -765,6 +887,11 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-gray);
+    width: 190px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
 .blogs
 {
@@ -777,6 +904,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
 }
 .gericht-update
 {
@@ -789,6 +917,13 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
+}
+.gericht-update::before
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: center;
 }
 .blogs-info1
 {
@@ -814,6 +949,7 @@
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
     max-width: 412px;
+    text-transform: capitalize;
 }
 .blogs-info2:hover
 {
@@ -906,16 +1042,28 @@
     letter-spacing: 0.04em;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-out;}
+.view-more:hover,
+.view-more1:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.15);
 }
 .img-container {
     display: flex;
     gap: 32px;
-  }
+    align-items: end;
+}
   
 .gallery-item {
     position: relative;
     display: inline-block;
-  }  
+    transition: transform 0.3s ease-in-out;
+}
+.gallery-item:hover {
+    transform: translateY(-30px) scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}  
 .gallery-item::after {
     content: "";
     position: absolute;
@@ -941,7 +1089,7 @@
 }
 .gallery-item:hover::before 
 {
-    transform: translate(-35%, -50%)
+    transform: translate(-35%, -50%);
 }
 .gallery-item:hover::after,
 .gallery-item:hover::before {
@@ -958,7 +1106,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
-    margin-bottom: 0;
+    margin: 0;
 }
 .subscribe-info
 {
@@ -1007,12 +1155,25 @@
 .subscribe 
 {
     width: 140px;
-    padding: 15px 0;
+    padding: 10px 0;
     gap: 10px;
     border: none;
     opacity: 0px;
     background-color: var(--main-yellow);
     color: #0C0C0C;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: 0.3s ease-in-out;
+}
+.subscribe:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.1);
 }
 .footer-info1
 {
@@ -1069,7 +1230,7 @@
 {
     text-decoration: underline;    
 }
-.whiskey-bg
+.whiskey-section
 {
     background-image: url(./img/whiskey-bg.jpg);
     background-position: center;
@@ -1077,6 +1238,13 @@
     padding: 40px;
     z-index: -1;
     background-repeat: no-repeat;
+    align-content: center;
+}
+.whiskey-ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 .on-rocks
 {
@@ -1101,6 +1269,13 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
+}
+.beer-info1::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: start;
 }
 .beer-info2
 {
@@ -1113,6 +1288,12 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    width: 614px;
+    height: 166px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto 0;
+
 }
 .beer-info3
 {
@@ -1125,7 +1306,8 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-gray);
-    max-width: 530px;
+    width: 530px;
+    margin-top: 0;
 }
 .cocktails-info
 {
@@ -1138,6 +1320,14 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
+}
+.cocktails-info::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    position: relative;
+    left: 49%;
 }
 .your-poison
 {
@@ -1150,7 +1340,9 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
 }
+
 .happy-hours
 {
     font-family: Cormorant Upright;
@@ -1161,7 +1353,8 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: var(--main-yellow);    
+    color: var(--main-yellow);
+    margin-bottom: 0;    
 }
 .when-happy-hours
 {
@@ -1186,6 +1379,13 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    margin-bottom: 0;
+}
+.contact::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: start;
 }
 .find-us
 {
@@ -1194,10 +1394,11 @@
     font-weight: 600;
     line-height: 83.2px;
     letter-spacing: 0.04em;
-    text-align: center;
+    text-align: start;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--main-yellow);
+    margin-top: 0;
 }
 .where-we
 {
@@ -1251,7 +1452,495 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    transition: 0.3s ease-in-out;
+}
+.visit-us:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.1);
+}
+.cocktails-item
+{
+    min-height: 600px;
+    min-width: 410px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
+.cocktails-item:hover {
+    transform: 
+    translateY(-25px)  scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.cocktails-item::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #0C0C0C 50%, #0C0C0C 40%);
+    opacity: 0;
+    transition:0.5s ease-in-out;
+    z-index: 3;
+}
+.cocktails-item:nth-of-type(1)::before
+{
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 0;
+    transition: 0.5s ease-in;
+    color: white;
+    z-index: 4;
+}
+.cocktails-item:nth-of-type(2)::before
+{
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    color: white;
+    z-index: 4;
+}
+.cocktails-item:nth-of-type(3)::before
+{
+    content: "";
+    position: absolute;
+    /* top: 45%; */
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: white;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cocktails-item:hover::after
+{
+    opacity: 0.7;
+}
+.cocktails-item:nth-of-type(1):hover::before
+{
+    opacity: 1;
+    content: "Beer";
+}
+.cocktails-item:nth-of-type(2):hover::before
+{
+    opacity: 1;
+    content: "Wine";
+}
+.cocktails-item:nth-of-type(3):hover::before
+{
+    opacity: 1;
+    content: "Cocktails";
+}
+.poison-choose
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.section-choose-poison
+{
+    background-color: var(--main-bg-color);
+    height: 1155px;
+    padding-top: 160px;
+}
+.header-main-bg
+{
+    background-image: url(./img/main-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.page2-hero
+{
+    padding-bottom: 100px;
+    background-image: url(./img/hero2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us1 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.book-table
+{
+    width: 412px;
+    height: 60px;
+    left: 444px;
+    gap: 0px;
+    border: 1px #F5EFDB solid;
+    opacity: 0px;
+    background-color: transparent;
+    color: var(--main-gray);
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.book-table::-webkit-calendar-picker-indicator
+{
+    display: none;
+}
+.book-table:nth-of-type(1)::after,
+.book-table:nth-of-type(2)::after {
+    content: url(./img/form-choose.svg);
+    flex-direction: row-reverse;
+    display: flex;
+    bottom: 18%;
+    right: 3%;
+    position: relative;
+}
+
+.form
+{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.book-now
+{
+    height: 44px;
+    padding: 8px 32px 8px 32px;
+    border: none;
+    opacity: 0px;
+    background-color: var(--main-yellow);
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 64px auto;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.book-now:hover {
+    cursor: pointer;
+    background-color: #C0B06F;
+    transform: scale(1.15);
+}
+.section-kevin-general
+{
+    display: flex;
+    align-items: center;
+    gap: 80px; 
+    justify-content: center;
+}
+.section-kevin 
+{
+    width: 1920px;
+    height: 1045px;
+    top: 5084px;
+    gap: 0px;
+    opacity: 0px;
+    background-repeat: no-repeat; 
+    padding-top: 142px;
+    background-size: cover;  
+    background-image: url(./img/main-background.png);
+}
+.section-gericht-update
+{
+    background-color: var(--main-bg-color);
+    height: 1400px;
+    padding-top: 130px;
+}
+.update-gallery
+{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+.page1-gallery
+{
+    display: flex;
+    gap: 64px;
+}
+.page1-section-gallery
+{
+    width: 1920px;
+    height: 705px;
+    opacity: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/main-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.gericht-name
+{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.footer-form-general
+{
+    background-color: #0C0C0C;
+    width: 1,300px;
+    height: 442px;
+    top: 11035px;
+    left: 310px;
+    padding: 64px 252px 64px 252px;
+    gap: 64px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DCCA8733;
+}
+.footer-form
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-info-general
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 126px;
+    height: 600px;
+    padding: 0;
+}
+.footer-best-wave
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    width: 438px;
+}
+.footer-best-wave::after
+{
+    content: url(./img/lozhka-right.svg);
+    display: flex;
+    justify-content: center;
+}
+.footer-li2 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-number
+{
+    width: 144px;
+    text-align: center;
+}
+.footer-street
+{
+    width: 305px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+    white-space: nowrap;
+    margin: 0;
+}
+.footer-li1
+{
+    width: 305px;
+    height: 158px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-contact-us
+{
+    text-align: center;
+}
+.footer-working-hours
+{
+    text-align: center;
+    width: 203px;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+    white-space: nowrap;    
+}
+.footer-hours
+{
+    max-width: 165px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;  
+    text-align: center; 
+    margin: 0;
+}
+.footer-li3
+{
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 320px;
+    left: 716px;
+    gap: 32px;
+    opacity: 0px;
+     
+}
+.footer-when-gericht
+{
+    text-align: center;
+}
+.section-customers
+{
+    background-color: var(--main-bg-color);
+    height: 1100px;
+    padding-top: 150px;
+    
+}
+.customer-ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.customers-item
+{
+    flex-basis: calc(100% - 32px) / 2;    
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.section-reward
+{
+    background-image: url(./img/main-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    height: 940px;
+}
+.rewards-ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.rewards-item
+{
+    display: flex;
+    flex-basis: calc((100% - 32px) / 2);
+    align-items: center;
+    gap: 32px;
+}
+.reward-general
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.section-beer
+{
+    background-image: url(./img/main-background.png);
+    height: 1045px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+}
+.beer-general
+{
+    display: flex;
+    align-items: center;
+    gap: 143px;
+}
+.section-happy
+{
+    background-image: url(./img/alco-bg.png);
+    height: 900px;
+    padding-top: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.find-us-general
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.section-find-us
+{
+    background-image: url(./img/main-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 992px;
+    padding-top: 150px;
 }
 .container
 {
